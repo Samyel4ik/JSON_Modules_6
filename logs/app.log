@@ -1,0 +1,6 @@
+2021-06-24 14:35:52,466 INFO c.l.Application [main] Class.Application started
+2021-06-24 14:35:53,096 INFO c.l.Application [main] read application properties
+2021-06-24 14:35:53,112 INFO c.l.Application [main] data.json->data_updated.json
+2021-06-24 14:35:53,113 INFO c.l.Application [main] document.txt->document_updated.txt
+2021-06-24 14:35:53,114 INFO c.l.Application [main] example.htm->example_updated.htm
+2021-06-24 14:35:53,114 INFO c.l.Application [main] the end of the application
