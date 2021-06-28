@@ -17,17 +17,27 @@
                 <SizeBasedTriggeringPolicy size="17 kB"/>
             </Policies>
         </RollingFile>
+        <RollingFile name="jsonRollingfileAppender"
+                     fileName="jsonlogs/logfile.json"
+                     filePattern="jsonlogs/logfile-%d{yyyy-MM-dd}-%i.log.gz">
+            <JSONLayout complete="true"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="17 kB"/>
+            </Policies>
+        </RollingFile>
     </Appenders>
     <Loggers>
         <Logger name="com.learn" level="debug" additivity="false">
             <AppenderRef ref="LogToFile"/>
             <AppenderRef ref="LogToConsole"/>
             <AppenderRef ref="XMLRollingfileAppender"/>
+            <AppenderRef ref="jsonRollingfileAppender"/>
         </Logger>
         <Root level="error">
             <AppenderRef ref="LogToFile"/>
             <AppenderRef ref="XMLRollingfileAppender"/>
             <AppenderRef ref="LogToConsole"/>
+            <AppenderRef ref="jsonRollingfileAppender"/>
         </Root>
     </Loggers>
 </Configuration>

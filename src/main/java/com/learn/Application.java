@@ -8,7 +8,7 @@ public class Application {
 
     public static void main(String[] args) {
         log.info("Class.Application started");
-        ApplicationConfig applicationConfig = new ApplicationConfig("application.properties");
+        ApplicationConfig applicationConfig = new ApplicationConfig("application.xml");
         log.info("read application properties");
         String suffix = applicationConfig.getSuffix();
 

@@ -15,8 +15,8 @@ public class ApplicationConfig {
 
     protected Properties loadProperties(String propertiesFileName) {
         Properties properties = new Properties();
-        try (InputStream is =  this.getClass().getClassLoader().getResourceAsStream(propertiesFileName)) {
-            properties.load(is);
+        try (InputStream is = this.getClass().getClassLoader().getResourceAsStream(propertiesFileName)) {
+            properties.loadFromXML(is);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -25,6 +25,7 @@ public class ApplicationConfig {
     }
 
     public String getSuffix() {
+
         return this.properties.getProperty("suffix");
     }
 

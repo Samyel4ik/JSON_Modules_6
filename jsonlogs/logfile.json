@@ -1,0 +1,87 @@
+[
+{
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.learn.Application",
+  "message" : "Class.Application started",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "instant" : {
+    "epochSecond" : 1624880755,
+    "nanoOfSecond" : 251000000
+  }
+}
+, {
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.learn.Application",
+  "message" : "read application properties",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "instant" : {
+    "epochSecond" : 1624880755,
+    "nanoOfSecond" : 816000000
+  }
+}
+, {
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.learn.Application",
+  "message" : "data.json->data_updated.json",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "instant" : {
+    "epochSecond" : 1624880755,
+    "nanoOfSecond" : 819000000
+  }
+}
+, {
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.learn.Application",
+  "message" : "document.txt->document_updated.txt",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "instant" : {
+    "epochSecond" : 1624880755,
+    "nanoOfSecond" : 821000000
+  }
+}
+, {
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.learn.Application",
+  "message" : "example.html->example_updated.html",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "instant" : {
+    "epochSecond" : 1624880755,
+    "nanoOfSecond" : 827000000
+  }
+}
+, {
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.learn.Application",
+  "message" : "the end of the application",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.log4j.spi.AbstractLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "instant" : {
+    "epochSecond" : 1624880755,
+    "nanoOfSecond" : 828000000
+  }
+}
+
+]
